@@ -1,0 +1,20 @@
+{
+  "name": "hans-traversy-portfolio",
+  "version": "1.0.0",
+  "description": "hans-traversy portfolio example",
+  "main": "index.js",
+  "homepage": "https://hansericmills.github.io/home",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hansericmills/hansericmills.github.io.git"
+  },
+  "author": "Hans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hansericmills/hansericmills.github.io/issues"
+  }
+}
